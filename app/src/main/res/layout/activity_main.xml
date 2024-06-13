@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FBC2D6">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="60dp"
+           android:fontFamily="sans-serif-black"
+           android:text="Log-in"
+           android:textColor="@color/black"
+           android:textSize="60sp" />
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Favor de ingresar los datos correspondientes, tu nombre y contraseña"
+           android:textSize="20sp"
+           android:fontFamily="sans-serif-black"
+           android:textColor="#E91E63"
+           android:gravity="center"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="8dp"/>
+
+       <EditText
+           android:id="@+id/editTextNombre"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginRight="25dp"
+           android:hint="Nombre de usuario"
+           android:textColor="@color/black"
+           android:inputType="textPersonName"
+           android:textSize="15sp" />
+
+       <EditText
+           android:id="@+id/editTextContrasena"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginRight="25dp"
+           android:hint="Contraseña"
+           android:textColor="@color/black"
+           android:inputType="textPassword"
+           android:textSize="15sp" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="bottom"
+       android:gravity="center_horizontal">
+
+       <Button
+           android:id="@+id/btn_go_to_menu"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Iniciar sesion"
+           android:layout_marginRight="25dp"
+           android:layout_marginLeft="25dp"
+           android:backgroundTint="#E91E63"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="60dp"
+           android:fontFamily="sans-serif-black"
+           android:text="."
+           android:textColor="#FAC1D5"
+           android:textSize="60sp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="25dp"
+           android:layout_marginTop="60dp"
+           android:fontFamily="sans-serif-black"
+           android:text="."
+           android:textColor="#FAC1D5"
+           android:textSize="60sp" />
+
+   </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AC84B3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título del formulario -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CRUD Socio"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa los datos donde corresponden"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#470CAF"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ "
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#440D4E"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar ID:"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#350B80"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de Socio"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ ─── ⋆⋅☆⋅⋆ "
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#440D4E"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/editTextFechaIngreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha De Ingreso"
+            android:textColor="@color/black"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-black"
+            android:text="."
+            android:textColor="#AB83B2"
+            android:textSize="5sp" />
+
+        <Button
+            android:id="@+id/btnAddSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Socio"
+            android:backgroundTint="#4700C5"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <Button
+            android:id="@+id/btnUpdateSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Socio"
+            android:backgroundTint="#4700C5"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnDeleteSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar Socio"
+            android:backgroundTint="#4700C5"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <Button
+            android:id="@+id/btnGetAllSocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Todos los Socios"
+            android:backgroundTint="#4700C5"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
+

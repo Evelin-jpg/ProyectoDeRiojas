@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#9DA9F1">
+
+    <ListView
+        android:id="@+id/listViewProductos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnIrCrud"
+        android:backgroundTint="#172B9C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operaciones CRUD" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:backgroundTint="#172B9C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir al Menú" />
+
+</LinearLayout>
